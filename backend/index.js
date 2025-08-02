@@ -11,6 +11,11 @@ app.use(cors());
 app.use(express.json());
 
 // Routes
+// Hello route
+app.get('/', (req, res) => {
+  res.send('Hello from the LMS backend!');
+});
+
 app.use('/api/courses', courseRoutes);
 app.use('/api/enrollments', enrollmentRoutes);
 
