@@ -16,6 +16,11 @@ app.get('/', (req, res) => {
   res.send('Hello from the LMS backend!');
 });
 
+// Hello route
+app.get('/', (req, res) => {
+  res.send('Hello from the LMS backend!');
+});
+
 app.use('/api/courses', courseRoutes);
 app.use('/api/enrollments', enrollmentRoutes);
 
