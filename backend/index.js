@@ -7,7 +7,13 @@ const courseRoutes = require('./routes/courseRoutes');
 const enrollmentRoutes = require('./routes/enrollmentRoutes');
 
 const app = express();
-app.use(cors());
+app.use(cors(
+  {
+    origin:[""],
+    methods:["POST","GET"],
+    crdentials:true
+  }
+));
 app.use(express.json());
 
 // Routes
