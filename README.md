@@ -1,4 +1,5 @@
 📚 Course Catalog & Student Enrollment System
+
 A simple full-stack LMS module to list courses and allow students to enroll in them. Built using:
 
 🔧 Frontend: React (Vite), Bootstrap, React Router, Axios, Toastify
@@ -15,24 +16,35 @@ A simple full-stack LMS module to list courses and allow students to enroll in t
 MunificentTech/
 │
 ├── frontend/                # React frontend (Vite)
+
 |______src/
+
 |_______├── components/        # Reusable components (Navbar, CourseCard, etc.)
+
 │       ├── services/          # Axios API service
+
 │       ├── App.jsx            # Main App component
+
 │       └── main.jsx           # ReactDOM render
 │   
 │
 ├── backend/                # Express backend
+
 │   ├── models/            # Mongoose models
+
 │   ├── routes/            # Express routes and Logic for API's
+
 │   ├── .env               # Mongo URI and Port
+
 │   └── index.js          # Entry point
 │
 └── README.md
 
 ⚙️ Setup Instructions
 🔧 1. Clone the Repo
+
   git clone https://github.com/yeshwanth667/MunificientTech-2.git
+  
   cd MunificentTech
 
 🖥️ 2. Run the Frontend
