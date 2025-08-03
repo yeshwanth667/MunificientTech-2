@@ -10,7 +10,7 @@ const MyEnrollments = () => {
   const fetchAllData = async () => {
     try {
       const [enrollRes, courseRes] = await Promise.all([
-        fetch('http://localhost:5000/api/enrollments/me'),
+        fetch('https://munificienttech-2-api.onrender.com/api/enrollments/me'),
         getCourses(),
       ]);
 
